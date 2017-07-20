@@ -22,6 +22,8 @@ public:
 
 protected:
     void paintEvent(QPaintEvent *event);
+private:
+    QPointF compute_astroid(float t);
 
 private:
     QColor mBackbroundColor;
